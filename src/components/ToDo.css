@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .task {
+    border-radius: 6px;
+    border: 1px solid white;
+    padding: 0.6em;
+    margin: 0.6em;
+  }
+  
+  .todo-container {
+    background: rgb(41, 33, 33);
+    color: white;
+    width: 50vw;
+    padding: 20px 10px;
+    margin: 10em auto;
+    border: 3px solid rgb(36, 110, 194);
+    border-radius: 15px;
+  }
+  
+  .task button {
+    float: right;
+    border-radius: 4px;
+    margin: 0px 4px;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .doneLabel {
+    background: linear-gradient(90deg, #28a720 0%, rgb(83 147 178) 100%);
+  }
+  .header {
+    margin: 0.4em;
+    text-align: center;
+  }
+  
+  .create-task input[type="text"] {
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 0.7em;
+    margin: 10px 20px;
+  }
+  
+  .todo-button {
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .bucketName {
+    background: linear-gradient(90deg, #260cff 0%, rgb(178 83 175) 100%);
+    pointer-events: none;
+  }
+  .todo-buttonWrapper {
+    text-align: center;
+  }
+  #bucketSelect {
+    width: 80%;
+    padding: 0.7em;
+    outline: none;
+    border: none;
+    margin: 10px 20px;
+  }
+  .create-bucket input[type="text"] {
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 0.7em;
+    margin: 10px 20px;
+  }
+  
